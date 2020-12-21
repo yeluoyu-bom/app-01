@@ -6,3 +6,7 @@ shinyUI(pageWithSidebar(
   sidebarPanel(),
   mainPanel()
 ))
+library(shiny)
+##定义输入和输出的关系
+shinyServer(function(input,output){
+})
